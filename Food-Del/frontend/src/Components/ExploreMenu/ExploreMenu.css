@@ -1,0 +1,35 @@
+.explore-menu{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.explore-menu h1{
+    font-weight: 500;
+}
+.explore-menu-list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow-x: scroll;
+    text-align: center;
+    gap: 20px;
+    margin: 16px 0px;
+}
+.explore-menu-list::-webkit-scrollbar{
+    display: none;
+}
+.explore-menu-list-items{
+  cursor: pointer;
+  transition: 0.3s;
+}
+.explore-menu hr {
+    background-color: rgba(19, 17, 17, 0.555);
+    height: 2px;
+    border:none;
+    margin: 10px 0px;
+}
+.explore-menu-list-items .active{
+    border: 4px solid tomato;
+    padding: 0.5px;
+    border-radius: 50%;
+}

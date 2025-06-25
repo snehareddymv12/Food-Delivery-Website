@@ -1,0 +1,32 @@
+.app-download{
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    justify-content: center;
+    align-items: center;
+    /* margin-top: 200px; */
+}
+.details{
+   display: flex;
+   flex-direction: column;
+   gap:16px;
+}
+.details p{
+    font-size: 25px;
+    font-weight:bolder
+}
+.image-container{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    gap:30px;
+    margin-bottom: 20px;
+}
+.image-container img{
+   width: auto;
+   height: auto;
+   cursor: pointer;
+}
+.image-container img:hover{
+    transform: scale(1.05);
+}

@@ -1,0 +1,37 @@
+.header{
+    position: relative;
+    background: url('/header_img.png') no-repeat;
+    height: 34vw;
+    background-size: contain;
+    margin: 30px auto;
+}
+.header-contents{
+   position: absolute;
+   bottom: 10%;
+   left: 6vw;
+   display: flex;
+   flex-direction: column;
+   align-items: start;
+   gap: 1.5vw;
+   max-width: 50%;
+   animation: fadeIn 3s; 
+}
+.header-contents h2{
+    color:aliceblue;
+    font-size: 37px;
+}
+.header-contents p{
+    color: white;
+    font-size: 17px;
+}
+.header-contents button {
+    color: black;
+    font-size: 14px;
+    border: none;
+    background: white;
+    border: none;
+    border-radius: 30px;
+    width: 100px;
+    padding: 12px 12px;
+    cursor: pointer;
+}

@@ -1,0 +1,69 @@
+.login-popup{
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    background: #00000090;
+    display: grid;
+}
+.login-form{
+    display: flex;
+    flex-direction: column;
+    place-self: center;
+    width: max(23vw,400px);
+    background-color:white;
+    color: rgb(90, 81, 81);
+    padding: 25px 30px;
+    gap:20px;
+    font-size: 15px;
+    animation: fadeIn 0.8s;
+   
+}
+.login-title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.login-title img {
+    width:20px;
+    cursor: pointer;
+}
+.login-details{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    margin-top: 10px;
+  
+}
+.login-details input{
+    font-size: 16px;
+    padding: 8px;
+    border: 1px solid grey;
+}
+.login-form button{
+    color: white;
+    background: tomato;
+    border: 1px solid tomato;
+    height: 43px;
+    width: 180px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 30px;
+    margin-top: 6px;
+    font-size: 16px;
+
+}
+.login-popup-container{
+    display: flex;
+    gap:10px;
+    align-items: start;
+}
+.login-popup-container input{
+    margin-top: 5px;
+}
+.login-form span{
+   color: tomato;
+   font-weight: 600;
+   margin-left: 7px;
+   cursor: pointer;
+}
